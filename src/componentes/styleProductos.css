@@ -1,0 +1,76 @@
+.card{
+    background-color: #fff;
+    border-radius: 16px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: box-shadow 0.3s ease;
+    margin: 1%;
+}
+.imgContainer{
+    width: 100%;
+    height: 180px;
+    background-color: #f0f0f0;
+    border-radius: 12px;
+    overflow: hidden;
+    margin-bottom: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imagen{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.nombre{
+    font-size: 18px;
+    font-weight: 600;
+    color: #333333;
+    margin-bottom: 4px;
+    text-align: center;
+}
+
+.precio{
+    font-size: 18px;
+    color: #549e66;
+    font-weight: 700;
+    margin-bottom: 4px;
+    text-align: center;
+}
+.stock{
+    font-size: 13px;
+    color: #666666;
+    margin-bottom: 12px;
+    text-align: center;
+}
+.cantidadContainer{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 16px;
+}
+.qtyButton{
+    background-color: #e0e0e0;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 4px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    font-weight: 600;
+}
+.qtyButton:hover{
+    background-color: #d0d0d0;
+}
+.qtyButton:active{
+    background-color: #b0b0b0;
+} .qty {
+  color: black; 
+  font-weight: bold;
+  font-size: 18px;
+  margin: 0 10px;
+}
