@@ -7,7 +7,7 @@ import loading from '../assets/loading.gif';
 const Home = ({ cart, productos, cargando, agregarCarrito, eliminarDelCarrito }) => {
     return (
         <>
-            <Header cartItems={cart}/>
+            <Header eliminarDelCarrito={eliminarDelCarrito} cartItems={cart}/>
             <main>
                 <h1>Bienvenidos a mi tienda</h1>
 
